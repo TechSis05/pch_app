@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:pch_app/CreateAccount.dart';
+import 'package:pch_app/Login.dart';
+import 'package:pch_app/LoginFail.dart';
 import 'package:pch_app/Screen_A.dart';
 import 'package:pch_app/Screen_B.dart';
 import 'package:pch_app/Screen_C.dart';
@@ -9,7 +12,7 @@ import 'EmailVerification.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: EmailVerification(),
+    home: LoginFail(),
     debugShowCheckedModeBanner: false,
   ));
 }
